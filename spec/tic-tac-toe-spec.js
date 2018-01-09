@@ -42,6 +42,6 @@ describe('winning', function() {
     myBoard.move(0, 1);
     myBoard.move(2, 0);
     myBoard.move(0, 2);
-    assert.equal(myBoard.checkVictory(), true);
+    assert.equal(myBoard.checkVictory() !== false, true);
   });
 });
